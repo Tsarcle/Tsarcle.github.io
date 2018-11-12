@@ -1,0 +1,63 @@
+/*Navbar CSS*/
+.bg-main {
+  background-color: #011627 !important;
+}
+
+a.bg-main:hover, a.bg-main:focus,
+button.bg-main:hover,
+button.bg-main:focus {
+  background-color: #bbbbbb !important;
+}
+
+.navbar-main .navbar-brand {
+  color: #f6f7f8;
+}
+
+.navbar-main .navbar-brand:hover, .navbar-main .navbar-brand:focus {
+  color: #ff3366;
+}
+
+.navbar-main .navbar-nav .nav-link {
+  color: #f6f7f8;
+  padding: 20px 15px 20px 15px;
+  font-size: 16px;
+}
+
+.navbar-main .navbar-nav .nav-link:hover, .navbar-main .navbar-nav .nav-link:focus {
+  color: #ff3366;
+}
+
+.navbar-main .navbar-toggler {
+  color: #f6f7f8;
+  border-color: #ff3366;
+}
+
+.navbar-main .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*Container and body*/
+body {
+	background-color: #2ec4b6;
+}
+
+.body-border {
+  padding: 0 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .body-border {
+	  padding: 0 40px;
+  }
+}
+
+.row-main {
+  background-color: #f6f7f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
