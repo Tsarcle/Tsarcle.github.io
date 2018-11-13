@@ -71,3 +71,21 @@ body {
   flex-wrap: wrap;
   padding-top: 80px;
 }
+
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+@media screen and (min-width: 769px) {
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+}
