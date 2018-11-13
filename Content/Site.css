@@ -9,6 +9,11 @@ button.bg-main:focus {
   background-color: #bbbbbb !important;
 }
 
+.navbar-main .navbar-logo {
+	height: 64px;
+	margin-right:20px;
+}
+
 .navbar-main .navbar-brand {
   color: #f6f7f8;
 }
@@ -19,8 +24,8 @@ button.bg-main:focus {
 
 .navbar-main .navbar-nav .nav-link {
   color: #f6f7f8;
-  padding: 20px 15px 20px 15px;
-  font-size: 16px;
+  padding: 22px 15px 15px 15px;
+  font-size: 18px;
 }
 
 .navbar-main .navbar-nav .nav-link:hover, .navbar-main .navbar-nav .nav-link:focus {
@@ -45,10 +50,15 @@ body {
   padding: 0 20px;
 }
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .body-border {
-	  padding: 0 40px;
+	  padding: 0 60px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .body-border {
+	  padding: 0 80px;
   }
 }
 
@@ -59,5 +69,5 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding-top: 80px;
 }
