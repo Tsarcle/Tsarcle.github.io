@@ -24,8 +24,8 @@ button.bg-main:focus {
 
 .navbar-main .navbar-nav .nav-link {
   color: #f6f7f8;
-  padding: 22px 15px 15px 15px;
-  font-size: 18px;
+  padding: 19px 15px 15px 15px;
+  font-size: 20px;
 }
 
 .navbar-main .navbar-nav .nav-link:hover, .navbar-main .navbar-nav .nav-link:focus {
@@ -46,20 +46,10 @@ body {
 	background-color: #2ec4b6;
 }
 
-.body-border {
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 576px) {
-  .body-border {
-	  padding: 0 60px;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .body-border {
-	  padding: 0 80px;
-  }
+p.aboutme {
+	margin-top: 40px;
+	font-size: 20px;
+	line-height: 2;
 }
 
 .row-main {
@@ -70,22 +60,38 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-top: 80px;
+  width: 80%
 }
 
+div.center-content {
+	margin-bottom: 40px;
+}
 
+/*Images*/
 img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
 }
 
-
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 img.center {
     display: block;
+	margin-top: 96px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
 }
 }
+
+@media screen and (min-width: 993px) {
+img.center {
+    display: block;
+	margin-top: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+}
+
