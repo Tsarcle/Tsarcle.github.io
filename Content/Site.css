@@ -43,55 +43,28 @@ button.bg-main:focus {
 
 /*Container and body*/
 body {
-	background-color: #2ec4b6;
+	background-color: #f6f7f8;
 }
 
-p.aboutme {
-	margin-top: 40px;
-	font-size: 20px;
-	line-height: 2;
+.page-container {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.row-main {
-  background-color: #f6f7f8;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-top: 80px;
-  width: 80%
+.side-padding {
+	padding: 0 8px;
 }
 
-div.center-content {
-	margin-bottom: 40px;
+.width-third {
+	width: 33.33%;
 }
 
-/*Images*/
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+.width-half {
+	width: 50%;
 }
 
-@media screen and (min-width: 768px) {
-img.center {
-    display: block;
-	margin-top: 96px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-}
-
-@media screen and (min-width: 993px) {
-img.center {
-    display: block;
-	margin-top: 96px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
+.width-twothird {
+	width: 66.66%;
 }
 
