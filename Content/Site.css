@@ -1,25 +1,7 @@
 /*Navbar CSS*/
-.bg-main {
-  background-color: #011627 !important;
-}
-
-a.bg-main:hover, a.bg-main:focus,
-button.bg-main:hover,
-button.bg-main:focus {
-  background-color: #bbbbbb !important;
-}
-
 .navbar-main .navbar-logo {
 	height: 64px;
 	margin-right:20px;
-}
-
-.navbar-main .navbar-brand {
-  color: #f6f7f8;
-}
-
-.navbar-main .navbar-brand:hover, .navbar-main .navbar-brand:focus {
-  color: #ff3366;
 }
 
 .navbar-main .navbar-nav .nav-link {
@@ -33,8 +15,7 @@ button.bg-main:focus {
 }
 
 .navbar-main .navbar-toggler {
-  color: #f6f7f8;
-  border-color: #ff3366;
+  border-color: #f6f7f8;
 }
 
 .navbar-main .navbar-toggler-icon {
@@ -42,20 +23,20 @@ button.bg-main:focus {
 }
 
 /*Container and body*/
-body {
-	background-color: #f6f7f8;
-}
-
 .page-container {
 	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 16px 0 0 0;
+	padding: 32px 0 0 0;
 }
 
 /*Cards*/
 .card-shadow {
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.15);
+}
+
+.card-margin{
+	margin-bottom: 16px;
 }
 
 /*Padding and Margin*/
@@ -67,11 +48,22 @@ body {
 	margin-right: 16px;
 }
 
+.left-margin {
+	margin-left: 16px;
+}
+
 .bottom-margin {
 	margin-bottom: 32px;
 }
 
 /*Colors*/
+.bg-color-navbar {
+  background-color: #011627 !important;
+}
+
+.bg-color-background {
+  background-color: #f6f7f8;
+}
 .color-accent, .hover-color-accent:hover {
     color: #009688;
 }
