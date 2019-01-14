@@ -11,16 +11,18 @@
 }
 
 .navbar-main .navbar-nav .nav-link:hover, .navbar-main .navbar-nav .nav-link:focus {
-  color: #ff3366;
+  color: #297373;
 }
 
 .navbar-main .navbar-toggler {
-  border-color: #f6f7f8;
+  border-color: #297373;
 }
 
 .navbar-main .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
+  background-image: url("Images/toggle menu.png");
+  height: 30px;
+  width: 30px;
+  }
 
 /*Container and body*/
 .page-container {
@@ -33,10 +35,6 @@
 /*Cards*/
 .card-shadow {
 	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.15);
-}
-
-.card-margin{
-	margin-bottom: 16px;
 }
 
 /*Padding and Margin*/
@@ -52,19 +50,23 @@
 	margin-left: 16px;
 }
 
+.card-margin{
+	margin-bottom: 16px;
+}
+
 .bottom-margin {
 	margin-bottom: 32px;
 }
 
 /*Colors*/
 .bg-color-navbar {
-  background-color: #011627 !important;
+  background-color: #39393a !important;
 }
 
 .bg-color-background {
-  background-color: #f6f7f8;
+  background-color: #e6e6e6;
 }
-.color-accent, .hover-color-accent:hover {
-    color: #009688;
+.color-accent {
+    color: #297373;
 }
 
