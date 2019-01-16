@@ -2,20 +2,20 @@
 <html>
 
 <head>
-<title>Page Title</title>
+<title>Alex Rau - Projects</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" type="text/css" href="Content/bootstrap.css">
+  <link href="Content/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="Content/Site.css">
   <script src="Scripts/jquery-3.3.1.js"></script> 
   <script src="Scripts/bootstrap.bundle.js"></script> 
-  
 </head>
 
-<body>
+<body class="bg-color-background">
+
 <section>
-<nav class="navbar navbar-expand-md bg-main navbar-main">
+<nav class="navbar navbar-expand-md bg-color-navbar navbar-main">
   <a href="index.html">
     <img class="navbar-logo" src="Content/Images/Logo.png">
   </a>
@@ -25,37 +25,45 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link hover-color-accent" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <strong><a class="nav-link" href="resume.html">Resume</a></strong>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>    
+        <strong><a class="nav-link hover-color-accent" href="resume.html">Projects</a></strong>
+      </li>   
     </ul>
   </div>  
 </nav>
 </section>
 
-<section class="body-border">
-<div class="row-main container-fluid">
-<div class="col-12 col-sm-6">
-  <div>
-    <img src="Content/Images/Avatar.png" alt="Hey, that's me!">
+<section>
+  <div class="page-container">
+    <div class="container-fluid">
+	  <div class="row side-padding">
+	    <div class="col-sm-12">
+	      <div class="card card-shadow card-margin">
+            <div class="card-body">
+              <h2 class="card-title bottom-margin"><i class="fas fa-asterisk right-margin color-accent"></i>Kritical Kit</h2>
+			  <div class="left-margin bottom-margin">
+				<img>
+				<p></p>
+				<button id="button_link_kritical_kit" type="button" class="btn btn-github"><i class="fab fa-github right-margin color-white"></i>Link to Github</button>
+			  </div>
+            </div>
+          </div>
+	    </div>
+	  </div>
+	</div>
   </div>
-  <div>
-    <p>Text about stuff</p>
-  </div>
-</div>
-<div class="col-12 col-sm-6">
-<h1>Hello World - Resume</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</div>
-</div>
 </section>
 
 </body>
+
+<script>
+  //function to open github links
+  $('#button_link_kritical_kit').click(function() {
+    //window.open("https://github.com/Tsarcle/Tsarcle.github.io");
+  });
+</script>
 
 </html>
 
