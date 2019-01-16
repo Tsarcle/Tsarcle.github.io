@@ -1,4 +1,8 @@
 /*Navbar CSS*/
+.navbar-main {
+	box-shadow: inset 0 -15px 10px -10px rgba(0, 0, 0, 0.2)
+}
+
 .navbar-main .navbar-logo {
 	height: 64px;
 	margin-right:20px;
@@ -22,7 +26,7 @@
   background-image: url("Images/toggle menu.png");
   height: 30px;
   width: 30px;
-  }
+}
 
 /*Container and body*/
 .page-container {
